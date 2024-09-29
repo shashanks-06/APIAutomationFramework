@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="APIAutomationFramework"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.051">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testVerifyCreateBookingPOST01"
+                time="0.051"
+                classname="Shashank.ApiAutomation.tests.crud.Test_CreateBooking_POST">
+            </testcase>
+</testsuite>
