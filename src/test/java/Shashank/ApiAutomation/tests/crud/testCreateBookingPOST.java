@@ -4,7 +4,7 @@ import io.qameta.allure.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Test_CreateBooking_POST {
+public class testCreateBookingPOST {
 
     @Owner("Shashank")
     @Severity(SeverityLevel.BLOCKER)

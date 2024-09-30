@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e63c08e-d3ae-47c2-8d4e-9fe5c613ed85" name="Changes" comment="Framework Folder Initial Structure">
+    <list default="true" id="2e63c08e-d3ae-47c2-8d4e-9fe5c613ed85" name="Changes" comment="assertions">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/crud/testCreateBookingTCPOST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/integration/TCIntegrationSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/endpoints/APIConstraints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/endpoints/APIConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/modules/PayloadManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/crud/Test_CreateBooking_POST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/crud/testCreateBookingPOST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/Shashank.ApiAutomation.tests.crud.Test_CreateBooking_POST_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/Shashank.ApiAutomation.tests.crud.Test_CreateBooking_POST_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_crud_post.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,33 +56,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/shash/IdeaProjects/APIAutomationFramwork/src/main/java/Shashank/ApiAutomation/pojos&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "JUnit.AppTest.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng.xml.executor": "Run",
+    "TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_crud_post.xml.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/shash/IdeaProjects/APIAutomationFramwork/src/main/java/Shashank/ApiAutomation/pojos",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\shash\IdeaProjects\APIAutomationFramwork\src\main\java\Shashank\ApiAutomation\pojos" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Shashank.ApiAutomation.tests.crud" />
       <recent name="Shashank.ApiAutomation.endpoints" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration.xml">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Shashank.ApiAutomation.App" />
       <module name="APIAutomationFramework" />
@@ -101,6 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_crud_post.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_crud_post.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_integration.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -113,6 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration.xml" />
+        <item itemvalue="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_crud_post.xml" />
         <item itemvalue="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng.xml" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest" />
@@ -152,11 +186,37 @@
       <option name="project" value="LOCAL" />
       <updated>1727627602336</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Framework Folder Initial Structure">
+      <option name="closed" value="true" />
+      <created>1727628242966</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727628242966</updated>
+    </task>
+    <task id="LOCAL-00005" summary="payload">
+      <option name="closed" value="true" />
+      <created>1727628275610</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727628275610</updated>
+    </task>
+    <task id="LOCAL-00006" summary="assertions">
+      <option name="closed" value="true" />
+      <created>1727628558096</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727628558096</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Framework Folder Initial Structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Framework Folder Initial Structure" />
+    <MESSAGE value="payload" />
+    <MESSAGE value="assertions" />
+    <option name="LAST_COMMIT_MESSAGE" value="assertions" />
   </component>
 </project>

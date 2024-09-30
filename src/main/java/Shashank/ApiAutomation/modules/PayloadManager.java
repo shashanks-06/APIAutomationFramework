@@ -2,6 +2,7 @@ package Shashank.ApiAutomation.modules;
 
 import Shashank.ApiAutomation.pojos.Booking;
 import Shashank.ApiAutomation.pojos.BookingDates;
+import Shashank.ApiAutomation.pojos.BookingResponse;
 import com.github.javafaker.Faker;
 import com.google.gson.Gson;
 
@@ -52,5 +53,10 @@ public class PayloadManager {
         String jsonStringPayload = gson.toJson(booking);
         System.out.println(jsonStringPayload);
         return jsonStringPayload;
+    }
+
+    public BookingResponse bookingResponseJava(String responseString){
+        BookingResponse bookingResponse = gson.fromJson(responseString, BookingResponse.class);
+        return bookingResponse;
     }
 }
