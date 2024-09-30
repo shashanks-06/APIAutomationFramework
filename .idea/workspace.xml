@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e63c08e-d3ae-47c2-8d4e-9fe5c613ed85" name="Changes" comment="assertions">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/crud/testCreateBookingTCPOST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/integration/TCIntegrationSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/endpoints/APIConstraints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/endpoints/APIConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/modules/PayloadManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/crud/Test_CreateBooking_POST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/crud/testCreateBookingPOST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/xml/Shashank.ApiAutomation.tests.crud.Test_CreateBooking_POST_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/Shashank.ApiAutomation.tests.crud.Test_CreateBooking_POST_results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_crud_post.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2e63c08e-d3ae-47c2-8d4e-9fe5c613ed85" name="Changes" comment="Framework - POST" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,10 +52,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng.xml.executor": "Run",
     "TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_crud_post.xml.executor": "Run",
+    "TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration.xml.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/shash/IdeaProjects/APIAutomationFramwork/src/main/java/Shashank/ApiAutomation/pojos",
+    "last_opened_file_path": "C:/Users/shash/IdeaProjects/APIAutomationFramwork",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -77,6 +65,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shash\IdeaProjects\APIAutomationFramwork" />
       <recent name="C:\Users\shash\IdeaProjects\APIAutomationFramwork\src\main\java\Shashank\ApiAutomation\pojos" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -210,13 +199,22 @@
       <option name="project" value="LOCAL" />
       <updated>1727628558096</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Framework - POST">
+      <option name="closed" value="true" />
+      <created>1727684550964</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727684550964</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Framework Folder Initial Structure" />
     <MESSAGE value="payload" />
     <MESSAGE value="assertions" />
-    <option name="LAST_COMMIT_MESSAGE" value="assertions" />
+    <MESSAGE value="Framework - POST" />
+    <option name="LAST_COMMIT_MESSAGE" value="Framework - POST" />
   </component>
 </project>

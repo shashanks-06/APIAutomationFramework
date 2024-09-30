@@ -31,9 +31,9 @@ public class testCreateBookingTCPOST extends BaseTest {
         //Default Rest Assured
         validatableResponse.body("booking.firstname", Matchers.equalTo("James"));
 
-        BookingResponse bookingResponse = payloadManager.bookingResponseJava(response.asString());
 
 //        AssertJ
+        BookingResponse bookingResponse = payloadManager.bookingResponseJava(response.asString());
         assertThat(bookingResponse.getBookingId()).isNotNull();
         assertThat(bookingResponse.getBooking().getFirstName()).isNotEmpty().isNotBlank();
         assertThat(bookingResponse.getBooking().getFirstName()).isEqualTo("James");
