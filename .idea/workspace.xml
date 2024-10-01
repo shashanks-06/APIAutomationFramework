@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e63c08e-d3ae-47c2-8d4e-9fe5c613ed85" name="Changes" comment="Data PropertyReader">
+    <list default="true" id="2e63c08e-d3ae-47c2-8d4e-9fe5c613ed85" name="Changes" comment="Full Integration">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/listeners/RetryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/integration/TCIntegrationSample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/integration/TC_IntegrationFlowRetry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_integration_retry.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/modules/PayloadManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/pojos/BookingResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/pojos/BookingResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/pojos/TokenRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/pojos/Auth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/integration/TC_IntegrationFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/integration/TC_IntegrationFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/listeners/RetryListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/listeners/RetryListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng_integration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_integration.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,37 +52,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_crud_post.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration.xml.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/shash/IdeaProjects/APIAutomationFramwork&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "JUnit.AppTest.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng.xml.executor": "Run",
+    "TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_crud_post.xml.executor": "Run",
+    "TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration.xml.executor": "Run",
+    "TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration_retry.xml.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/shash/IdeaProjects/APIAutomationFramwork",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\shash\IdeaProjects\APIAutomationFramwork" />
       <recent name="C:\Users\shash\IdeaProjects\APIAutomationFramwork\src\main\java\Shashank\ApiAutomation\pojos" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Shashank.ApiAutomation.tests.integration" />
       <recent name="Shashank.ApiAutomation.tests.crud" />
       <recent name="Shashank.ApiAutomation.endpoints" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration_retry.xml">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Shashank.ApiAutomation.App" />
       <module name="APIAutomationFramework" />
@@ -97,24 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_crud_post.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Shashank.ApiAutomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Shashank.ApiAutomation" />
-      <option name="MAIN_CLASS_NAME" value="Shashank.ApiAutomation.AppTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_crud_post.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_crud_post.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration_retry.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_crud_post.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_integration_retry.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -144,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration_retry.xml" />
         <item itemvalue="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration.xml" />
         <item itemvalue="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_crud_post.xml" />
         <item itemvalue="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng.xml" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727772953288</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Full Integration">
+      <option name="closed" value="true" />
+      <created>1727779789762</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727779789762</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -258,6 +262,7 @@
     <MESSAGE value="assertions" />
     <MESSAGE value="Framework - POST" />
     <MESSAGE value="Data PropertyReader" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data PropertyReader" />
+    <MESSAGE value="Full Integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full Integration" />
   </component>
 </project>
