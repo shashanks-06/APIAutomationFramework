@@ -1,6 +1,6 @@
 package Shashank.ApiAutomation.pojos;
 
-public class TokenRequest {
+public class Auth {
     private String username;
     private String password;
 

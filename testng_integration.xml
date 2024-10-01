@@ -3,10 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="APIAutomationFramework">
         <classes>
-            <class name="Shashank.ApiAutomation.tests.integration.TCIntegrationSample">
-<!--                <methods>-->
-<!--                    <include name="testVerifyCreateBookingPOST01"/>-->
-<!--                </methods>-->
+            <class name="Shashank.ApiAutomation.tests.integration.TC_IntegrationFlow">
             </class>
         </classes>
     </test>

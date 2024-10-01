@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e63c08e-d3ae-47c2-8d4e-9fe5c613ed85" name="Changes" comment="Framework - POST">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/utils/PropertyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data.properties" afterDir="false" />
+    <list default="true" id="2e63c08e-d3ae-47c2-8d4e-9fe5c613ed85" name="Changes" comment="Data PropertyReader">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/modules/PayloadManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/pojos/BookingResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/pojos/BookingResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/pojos/TokenRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/pojos/Auth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/crud/testCreateBookingTCPOST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/crud/testCreateBookingTCPOST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/integration/TC_IntegrationFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/integration/TC_IntegrationFlow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng_integration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_integration.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,7 @@
       <recent name="Shashank.ApiAutomation.endpoints" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_crud_post.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration.xml">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Shashank.ApiAutomation.App" />
       <module name="APIAutomationFramework" />
@@ -142,8 +144,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_crud_post.xml" />
         <item itemvalue="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration.xml" />
+        <item itemvalue="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_crud_post.xml" />
         <item itemvalue="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng.xml" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest" />
@@ -239,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727770162143</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Data PropertyReader">
+      <option name="closed" value="true" />
+      <created>1727772953288</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727772953288</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -247,6 +257,7 @@
     <MESSAGE value="payload" />
     <MESSAGE value="assertions" />
     <MESSAGE value="Framework - POST" />
-    <option name="LAST_COMMIT_MESSAGE" value="Framework - POST" />
+    <MESSAGE value="Data PropertyReader" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data PropertyReader" />
   </component>
 </project>

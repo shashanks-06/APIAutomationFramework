@@ -1,14 +1,14 @@
 package Shashank.ApiAutomation.pojos;
 
 public class BookingResponse {
-    private String bookingid;
+    private Integer bookingid;
     private Booking booking;
 
-    public String getBookingId() {
+    public Integer getBookingId() {
         return bookingid;
     }
 
-    public void setBookingId(String bookingid) {
+    public void setBookingId(Integer bookingid) {
         this.bookingid = bookingid;
     }
 
