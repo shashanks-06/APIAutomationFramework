@@ -6,7 +6,6 @@ import Shashank.ApiAutomation.pojos.BookingResponse;
 import io.qameta.allure.*;
 import io.restassured.RestAssured;
 import org.hamcrest.Matchers;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import static org.assertj.core.api.Assertions.*;
 

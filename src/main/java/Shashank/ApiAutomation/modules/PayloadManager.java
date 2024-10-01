@@ -49,7 +49,7 @@ public class PayloadManager {
         booking.setAdditionalNeeds("Lunch");
         System.out.println(booking);
 
-        // Java Object -> JSON String (byteStream) - Serlization
+        // Java Object -> JSON String (byteStream) - Serialization
         String jsonStringPayload = gson.toJson(booking);
         System.out.println(jsonStringPayload);
         return jsonStringPayload;
