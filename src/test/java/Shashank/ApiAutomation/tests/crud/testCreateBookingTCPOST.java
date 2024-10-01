@@ -3,6 +3,7 @@ package Shashank.ApiAutomation.tests.crud;
 import Shashank.ApiAutomation.base.BaseTest;
 import Shashank.ApiAutomation.endpoints.APIConstants;
 import Shashank.ApiAutomation.pojos.BookingResponse;
+import Shashank.ApiAutomation.utils.PropertyReader;
 import io.qameta.allure.*;
 import io.restassured.RestAssured;
 import org.hamcrest.Matchers;
@@ -25,17 +26,23 @@ public class testCreateBookingTCPOST extends BaseTest {
                         .when().body(payloadManager.createPayloadBookingAsString()).post();
 
         validatableResponse = response.then().log().all();
-        validatableResponse.statusCode(200);
+        validatableResponse.statusCode(Integer.parseInt(
+                PropertyReader.readKey("booking.post.statuscode.success")
+        ));
 
         //Default Rest Assured
-        validatableResponse.body("booking.firstname", Matchers.equalTo("James"));
+        validatableResponse.body("booking.firstname", Matchers.equalTo(
+                PropertyReader.readKey("booking.post.firstname")
+        ));
 
 
 //        AssertJ
         BookingResponse bookingResponse = payloadManager.bookingResponseJava(response.asString());
         assertThat(bookingResponse.getBookingId()).isNotNull();
         assertThat(bookingResponse.getBooking().getFirstName()).isNotEmpty().isNotBlank();
-        assertThat(bookingResponse.getBooking().getFirstName()).isEqualTo("James");
+        assertThat(bookingResponse.getBooking().getFirstName()).isEqualTo(
+                PropertyReader.readKey("booking.post.firstname")
+        );
 
 //        TestNG Assertions
         assertsActions.verifyStatusCode(response, 200);
