@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e63c08e-d3ae-47c2-8d4e-9fe5c613ed85" name="Changes" comment="Full Integration">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/listeners/RetryAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/integration/TCIntegrationSample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/integration/TC_IntegrationFlowRetry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_integration_retry.xml" afterDir="false" />
+    <list default="true" id="2e63c08e-d3ae-47c2-8d4e-9fe5c613ed85" name="Changes" comment="Retry Analyzer">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Shashank/ApiAutomation/pojos/vwo/VwoLoginPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/tests/ddt/vwo/VwoLoginApiDdt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/utils/vwo/UtilsExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/vwo/TD.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/listeners/RetryListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Shashank/ApiAutomation/listeners/RetryListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
     </list>
@@ -27,6 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -63,11 +64,12 @@
     "TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_crud_post.xml.executor": "Run",
     "TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration.xml.executor": "Run",
     "TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration_retry.xml.executor": "Run",
+    "TestNG.VwoLoginApiDdt.testVwoLoginApi.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/shash/IdeaProjects/APIAutomationFramwork",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "C:/Users/shash/IdeaProjects/APIAutomationFramwork/src/test/resources/vwo",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
@@ -75,6 +77,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shash\IdeaProjects\APIAutomationFramwork\src\test\resources\vwo" />
       <recent name="C:\Users\shash\IdeaProjects\APIAutomationFramwork" />
       <recent name="C:\Users\shash\IdeaProjects\APIAutomationFramwork\src\main\java\Shashank\ApiAutomation\pojos" />
     </key>
@@ -84,20 +87,7 @@
       <recent name="Shashank.ApiAutomation.endpoints" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration_retry.xml">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Shashank.ApiAutomation.App" />
-      <module name="APIAutomationFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Shashank.ApiAutomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.VwoLoginApiDdt.testVwoLoginApi">
     <configuration name="C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_crud_post.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_crud_post.xml" />
@@ -138,13 +128,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VwoLoginApiDdt.testVwoLoginApi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Shashank.ApiAutomation.tests.ddt.vwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Shashank.ApiAutomation.tests.ddt.vwo" />
+      <option name="MAIN_CLASS_NAME" value="Shashank.ApiAutomation.tests.ddt.vwo.VwoLoginApiDdt" />
+      <option name="METHOD_NAME" value="testVwoLoginApi" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.VwoLoginApiDdt.testVwoLoginApi" />
         <item itemvalue="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration_retry.xml" />
         <item itemvalue="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_integration.xml" />
         <item itemvalue="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng_crud_post.xml" />
         <item itemvalue="TestNG.C:/Users/shash/IdeaProjects/APIAutomationFramwork/testng.xml" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -253,8 +261,27 @@
       <option name="project" value="LOCAL" />
       <updated>1727779789762</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Retry Analyzer">
+      <option name="closed" value="true" />
+      <created>1727782532334</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727782532334</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Framework Folder Initial Structure" />
@@ -263,6 +290,7 @@
     <MESSAGE value="Framework - POST" />
     <MESSAGE value="Data PropertyReader" />
     <MESSAGE value="Full Integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Full Integration" />
+    <MESSAGE value="Retry Analyzer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Retry Analyzer" />
   </component>
 </project>
