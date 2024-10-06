@@ -100,4 +100,13 @@ public class PayloadManager {
         // Java Object -> JSON String (byteStream) - Serialization
         return gson.toJson(booking);
     }
+
+    public String partialUpdateBookingById(){
+        Booking booking = new Booking();
+        booking.setFirstName("Shashank");
+
+        System.out.println(booking);
+
+        return gson.toJson(booking);
+    }
 }
