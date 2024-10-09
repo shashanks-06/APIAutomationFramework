@@ -8,6 +8,7 @@ import Shashank.ApiAutomation.utils.PropertyReader;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
 import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
@@ -43,8 +44,14 @@ public class TCIntegration_Assignment extends BaseTest {
                 .isEqualTo(PropertyReader.readKey("booking.post.firstname"));
 
         iTestContext.setAttribute("bookingid", bookingResponse.getBookingId());
-    }
 
+
+        //    We can also get bookingId or token from the response by using JsonPath without Response Class
+        jsonPath = JsonPath.from(response.asString());
+        String bookingIdFromJsonPath = jsonPath.getString("bookingid");
+        System.out.println("BookingId From JSONPath -> " + bookingIdFromJsonPath);
+        System.out.println("BookingId From Response Class -> " + bookingResponse.getBookingId());
+    }
 
 
     @Test(groups = "integration", priority = 2)
@@ -71,7 +78,15 @@ public class TCIntegration_Assignment extends BaseTest {
         assertThat(booking.getFirstName()).isNotBlank().isNotEmpty()
                 .isEqualTo(PropertyReader.readKey("booking.patch.firstname"));
 
+
+        //    We can also get firstname from the response by using JsonPath without Response Class
+        jsonPath = JsonPath.from(response.asString());
+        String firstNameFromJsonPath = jsonPath.getString("firstname");
+        System.out.println("FirstName using JsonPath -> " + firstNameFromJsonPath);
+        System.out.println("FirstName using Response Class -> " + booking.getFirstName());
     }
+
+
     @Test(groups = "integration", priority = 3)
     @Owner("Shashank")
     @Description("TC#INT1 - Step 3. Verify that the Booking By ID")
@@ -93,6 +108,11 @@ public class TCIntegration_Assignment extends BaseTest {
         assertThat(booking.getFirstName()).isNotEmpty().isNotBlank();
         assertThat(booking.getFirstName()).isEqualTo(PropertyReader.readKey("booking.patch.firstname"));
 
+        //    We can also get firstname from the response by using JsonPath without Response Class
+        jsonPath = JsonPath.from(response.asString());
+        String firstNameFromJsonPath = jsonPath.getString("firstname");
+        System.out.println("FirstName using JsonPath -> " + firstNameFromJsonPath);
+        System.out.println("FirstName using Response Class -> " + booking.getFirstName());
     }
 
     @Test(groups = "integration", priority = 4)

@@ -55,6 +55,12 @@ public class BaseTest {
         // Token Extraction
         String token = payloadManager.getTokenFromJSON(response.asString());
 
+        //    We can also get token from the response by using JsonPath without Response Class
+        jsonPath = JsonPath.from(response.asString());
+        String tokenFromJsonPath = jsonPath.getString("token");
+        System.out.println("Token From JsonPath -> " + tokenFromJsonPath);
+        System.out.println("Token From Response Class -> " + token);
+
         return token;
     }
 }
