@@ -23,7 +23,6 @@ public class PayloadManager {
         booking.setBookingDates(bookingDates);
 
         booking.setAdditionalNeeds("Lunch");
-        System.out.println(booking);
 
         // Java Object -> JSON String (byteStream) - Serlization
         String jsonStringPayload = gson.toJson(booking);
