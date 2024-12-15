@@ -116,7 +116,7 @@ public class TCIntegration_Assignment extends BaseTest {
 
     @Test(groups = "integration", priority = 4)
     @Owner("Shashank")
-    @Description("TC#INT1 - Step 3. Delete the Booking by ID")
+    @Description("TC#INT1 - Step 4. Delete the Booking by ID")
     public void testDeleteBookingById(ITestContext iTestContext){
         String token = (String) iTestContext.getAttribute("token");
         Integer bookingid = (Integer) iTestContext.getAttribute("bookingid");
