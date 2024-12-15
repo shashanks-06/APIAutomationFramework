@@ -9,7 +9,6 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
-import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
 

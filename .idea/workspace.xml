@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e63c08e-d3ae-47c2-8d4e-9fe5c613ed85" name="Changes" comment="Minor Updates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
-    </list>
+    <list default="true" id="2e63c08e-d3ae-47c2-8d4e-9fe5c613ed85" name="Changes" comment="Full Integration" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -314,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728466665265</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Full Integration">
+      <option name="closed" value="true" />
+      <created>1734271915555</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1734271915555</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,12 +338,12 @@
     <MESSAGE value="assertions" />
     <MESSAGE value="Framework - POST" />
     <MESSAGE value="Data PropertyReader" />
-    <MESSAGE value="Full Integration" />
     <MESSAGE value="Retry Analyzer" />
     <MESSAGE value="Apache POI" />
     <MESSAGE value="Post Patch Get Delete" />
     <MESSAGE value="Getting bookingid,token,firstname using JsonPath" />
     <MESSAGE value="Minor Updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor Updates" />
+    <MESSAGE value="Full Integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full Integration" />
   </component>
 </project>
