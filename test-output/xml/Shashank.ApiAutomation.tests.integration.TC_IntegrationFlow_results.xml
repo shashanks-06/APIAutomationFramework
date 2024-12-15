@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="APIAutomationFramework"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.346">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testUpdateBookingById"
+                time="1.111"
+                classname="Shashank.ApiAutomation.tests.integration.TC_IntegrationFlow">
+            </testcase>
+            <testcase
+                name="testDeleteBookingById"
+                time="1.116"
+                classname="Shashank.ApiAutomation.tests.integration.TC_IntegrationFlow">
+            </testcase>
+            <testcase
+                name="testVerifyBookingById"
+                time="1.104"
+                classname="Shashank.ApiAutomation.tests.integration.TC_IntegrationFlow">
+            </testcase>
+            <testcase
+                name="testCreateBooking"
+                time="4.015"
+                classname="Shashank.ApiAutomation.tests.integration.TC_IntegrationFlow">
+            </testcase>
+</testsuite>
