@@ -36,7 +36,7 @@ public class TC_IntegrationFlow extends BaseTest {
 
         // Validatable Assertion
         validatableResponse.statusCode(200);
-//        validatableResponse.body("booking.firstname", Matchers.equalTo("Pramod"));
+//        validatableResponse.body("booking.firstname", Matchers.equalTo("Shashank"));
 
         // DeSer
         BookingResponse bookingResponse = payloadManager.bookingResponseJava(response.asString());
